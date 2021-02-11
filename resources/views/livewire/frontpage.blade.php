@@ -56,8 +56,8 @@
             </div>
         </aside>
         <main class="bg-gray-100 p-12 min-h-screen sm:w-8/12 md:w-9/12 lg:w-10/12">
-            
-            <iframe src="https://player.twitch.tv/?channel=xqcow&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+            <iframe src="https://player.twitch.tv/?channel=xqcow&parent=139.59.125.178/" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
             @foreach($blogs as $blog)
 
             <div class="mb-5">

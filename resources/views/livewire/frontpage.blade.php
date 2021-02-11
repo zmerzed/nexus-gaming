@@ -56,20 +56,7 @@
             </div>
         </aside>
         <main class="bg-gray-100 p-12 min-h-screen sm:w-8/12 md:w-9/12 lg:w-10/12">
-            <div class="col-md-6" style="background-color: blue">
-                <div class="d-block" style="position:relative;">
-                    <img class="img-fluid" src="./images/video-img.png" alt="Video Image">
-                    <div class="h-100 w-100" style="position: absolute; top:0; left:0;">
-                        <div class="d-flex justify-content-center align-items-center h-100 w-100 js-video-button"
-                             data-video-id="xZ2KNs92q3Q" data-vidoen>
-                            <div>
-                                <img src="./images/Icon awesome-play.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            
             <iframe src="https://player.twitch.tv/?channel=xqcow&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
             @foreach($blogs as $blog)
 

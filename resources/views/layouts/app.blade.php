@@ -30,12 +30,6 @@
 
             @if (auth()->user())
                 @livewire('navigation-dropdown')
-                <!-- Page Heading -->
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
             @endif
 
             <!-- Page Content -->
@@ -45,18 +39,8 @@
         </div>
 
         @stack('modals')
-        @stack( 'scripts' )
+        @stack('scripts')
 
-        <script>
-            $(".js-video-button").modalVideo({
-                youtube: {
-                    controls: 0,
-                    nocookie: true,
-                    autoplay: 1
-                }
-            });
-
-        </script>
         @livewireScripts
     </body>
 </html>
